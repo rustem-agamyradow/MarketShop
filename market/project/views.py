@@ -9,8 +9,4 @@ def product(request):
 
 def login(request):
     return render(request,'login.html')
-
-
-def electronics(request):
-    return render(request,'electronics.html')
 # Create your views here.
