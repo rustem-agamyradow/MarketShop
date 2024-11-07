@@ -16,6 +16,12 @@ def register(request):
 def electronics(request):
     return render(request,'electronics.html')
 
+def register(request):
+    return render(request,'register.html')
+
+def electronics(request):
+    return render(request,'electronics.html')
+
 
 def about(request):
     return render(request,'about.html')
