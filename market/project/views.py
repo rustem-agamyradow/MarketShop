@@ -9,4 +9,18 @@ def product(request):
 
 def login(request):
     return render(request,'login.html')
+
+def register(request):
+    return render(request,'register.html')
+
+def electronics(request):
+    return render(request,'electronics.html')
+
+
+def about(request):
+    return render(request,'about.html')
+
+
+def checkout(request):
+    return render(request,'checkout.html')
 # Create your views here.
