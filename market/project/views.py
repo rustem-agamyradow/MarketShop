@@ -29,4 +29,19 @@ def about(request):
 
 def checkout(request):
     return render(request,'checkout.html')
+
+
+def wishlist(request):
+    return render(request,'wishlist.html')
+
+
+def search(request):
+    return render(request,'search.html')
+
+
+def contact(request):
+    return render(request,'contact.html')
+
+def cart(request):
+    return render(request,'cart.html')
 # Create your views here.

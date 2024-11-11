@@ -10,5 +10,9 @@ urlpatterns = [
     path('electronics',views.electronics,name='electronics'),
     path('about',views.about,name='about'),
     path('checkout',views.checkout,name='checkout'),
+    path('wishlist',views.wishlist,name='wishlist'),
+    path('search',views.search,name='search'),
+    path('contact',views.contact,name='contact'),
+    path('cart',views.cart,name='cart'),
 
 ]
