@@ -45,16 +45,8 @@ def contact(request):
 def cart(request):
     return render(request,'cart.html')
 
-def order(request):
-    return render(request,'order.html')
+def addproduct(request):
+    return render(request,'addproduct.html')
 
-
-def user_order(request):
-    return render(request,'user_order.html')
-
-def all_order(request):
-    return render(request,'all_order.html')
-
-def post_order(request):
-    return render(request,'post_order.html')
-# Create your views here.
+def stock(request):
+    return render(request,'stock.html')
