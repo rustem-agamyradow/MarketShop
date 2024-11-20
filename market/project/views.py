@@ -44,4 +44,9 @@ def contact(request):
 
 def cart(request):
     return render(request,'cart.html')
-# Create your views here.
+
+def addproduct(request):
+    return render(request,'addproduct.html')
+
+def stock(request):
+    return render(request,'stock.html')
