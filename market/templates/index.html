@@ -46,11 +46,11 @@
         </div>
         <div class="product-thumb clearfix">
             <div class="image">
-                <a href="product.html"><img src="{% static 'image/banner/sa.jpg' %}" alt="Aspire Ultrabook Laptop"
+                <a href="{% url 'product' %}"><img src="{% static 'image/banner/sa.jpg' %}" alt="Aspire Ultrabook Laptop"
                         title="Aspire Ultrabook Laptop" class="img-responsive" /></a>
             </div>
             <div class="caption">
-                <h4><a href="product.html">Aspire Ultrabook Laptop</a></h4>
+                <h4><a href="{% url 'product' %}">Aspire Ultrabook Laptop</a></h4>
                 <p class="price"> <span class="price-new">$230.00</span> <span class="price-old">$241.99</span> <span
                         class="saving">-5%</span> </p>
                 <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i
