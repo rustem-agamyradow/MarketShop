@@ -50,3 +50,15 @@ def addproduct(request):
 
 def stock(request):
     return render(request,'stock.html')
+
+def order(request):
+    return render(request,'order.html')
+
+def all_order(request):
+    return render(request,'all_order.html')
+
+def post_order(request):
+    return render(request,'post_order.html')
+
+def user_order(request):
+    return render(request,'user_order.html')
